@@ -1,0 +1,79 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@font-face {
+  font-family: TTFirsNeue-Regular;
+  src: local("TTFirsNeue-Regular"),
+  url('./assets/fonts/TTFirsNeue-Regular.otf');
+  font-weight: regular;
+
+}
+
+@font-face {
+  font-family: TTFirsNeue-Bold;
+  src: local("TTFirsNeue-Bold"),
+  url('./assets/fonts/TTFirsNeue-Bold.otf');
+  font-weight: bold;
+
+}
+
+
+body {
+  background-image: url("./assets/degrade.jpg");
+  font-family: TTFirsNeue-Regular;
+
+}
+
+.app-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.app-input{
+  height: 465px;
+  width: 1500px;
+  color: rgb(15, 15, 15);
+  font-family: TTFirsNeue-Regular;
+  margin: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px 40px;
+  font-size: 80px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 5px solid rgb(40, 40, 40);
+}
+
+.app-btn{
+  position: absolute;
+  top: 558px;
+  width: 20%;
+  background-color: rgb(40, 40, 40);
+  border: none;
+  border-radius: 20px;
+  color: rgb(215, 215, 215);
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  font-family: TTFirsNeue-Bold;
+
+}
+
+.logo{
+  margin-bottom: 20px;
+}
+
+.app-btn:active{
+  background-color: rgb(60, 60, 60);
+}
+
+
+.app-result{
+  margin-top: 100px;
+}
